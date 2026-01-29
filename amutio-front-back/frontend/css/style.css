@@ -1,0 +1,26 @@
+/* Custom styles for Notes App */
+
+body {
+  font-family: "Courgette", cursive;
+}
+
+/* Active notes cards */
+.note-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Archived notes cards */
+.note-card.archived {
+  background-color: #f5f5f5;
+  color: #666;
+  border-style: dashed;
+}
+
+.notification {
+  transition: opacity 0.3s ease;
+}
