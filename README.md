@@ -58,7 +58,7 @@ El proyecto es una Single Page Application (SPA) que permite crear, editar, arch
 ## Como ejecutar la aplicación 🏃🏼‍➡️
 
  ### 1 Clonar el repositorio
-   git clone <private-repository-url>
+   git clone <https://github.com/AndreAmutio/notes-api-fullstack>
    cd notes-app
 
  ### 2 Ejecutar con el script automático
