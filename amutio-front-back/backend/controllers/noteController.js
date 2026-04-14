@@ -11,7 +11,7 @@ const getArchivedNotes = async (_, res) =>
 
 const createNote = async (req, res) => {
   try {
-    console.log('BODY:', req.body); // 👀 Ver qué llega
+    console.log('BODY:', req.body); 
     const note = await service.createNote(req.body);
     res.json(note);
   } catch (error) {
